@@ -4,7 +4,11 @@
   "description": "A script that helps import and export data in Cloud Firestore",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "advertisements": "node export.js advertisements",
+    "homedata": "node export.js homedata",
+    "customdata": "node export.js customdata",
+    "rooms": "node export.js rooms"
   },
   "keywords": [
     "firestore",
@@ -13,7 +17,7 @@
   ],
   "author": "Dale Nguyen",
   "license": "ISC",
-  "dependencies": {    
+  "dependencies": {
     "firebase-admin": "^5.13.1",
     "js-yaml": "^3.12.1"
   }
